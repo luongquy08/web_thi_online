@@ -16,11 +16,6 @@
         <div class="row">
             <h2 class="text-center">Hệ thống thi thử trực tuyến</h2>
             <nav class="navbar navbar-inverse">
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Tìm kiếm tại đây...">
-                    </div>
-                </form>
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
                         <span class="sr-only">Toggle navigation</span>
@@ -29,24 +24,19 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="navbar-collapse collapse" id="menu">
+                <div class="navbar-collapse " id="menu">
 
                     <ul class="nav navbar-nav navbar">
                         <li><a href=""><span class="glyphicon glyphicon-home"></span> Trang chủ</a></li>
                         <li><a href=""><span class="glyphicon glyphicon-user"></span> Tài khoản</a></li>
                         <li><a href=""><span class="glyphicon glyphicon-envelope"></span> Liên hệ</a></li>
                     </ul>
-                    <form class="navbar-form navbar-right">
-                        <button class="btn btn-warning">Đăng xuất</button>
-                        <button class="btn btn-success">Đăng ký</button>
-                    </form>
                 </div>
             </nav>
         </div>
         <div class="row">
             <ul class="breadcrumb">
-                <li><a href="#"><span class="glyphicon glyphicon-home"></span> Trang chủ</a></li>
-                <li><a href="#">Thi online</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Tài khoản</a></li>
             </ul>
         </div>
     </div>
@@ -54,37 +44,43 @@
 <div id="profile-section">
     <div class="container">
         <div class="row">
-            <div class="col-xs-3 col-md-3">
-                <img class="img-reponsive img-thumbnail" src="img/hinata.jpg" alt="Hinata" style="padding-top: 50px">
+            <div class="col-xs-3 col-md-3" >
+                <img class="img-thumbnail" src="img/hinata.jpg" class="img-responsive" alt="Responsive image">
                 <input type="file">
             </div>
             <div class="col-xs-9 col-md-9">
-                <ul class="nav nav-tabs">
-                    <li><a href="#info" data-toggle="tab">Thông tin chung</a></li>
-                    <li><a href="#security" data-toggle="tab">Bảo mật tài khoản</a></li>
-                    <li><a href="#" data-toggle="tab">Lịch sử</a></li>
+                <ul class="nav nav-tabs" id="k">
+                    <li class="active"><a href="#inf" data-toggle="tab">Thông tin chung</a></li>
+                    <li><a href="#secu" data-toggle="tab">Bảo mật tài khoản</a></li>
+                    <li><a href="#his" data-toggle="tab">Lịch sử</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div class="tab-pane" id="info">
-                        <h2 class="text-center">Thông tin tài khoản</h2>
+                    <div class="tab-pane active" id="inf">
+                        <h3 class="text-center">Thông tin chung</h3>
                         <form class="form-horizontal">
                             <div class="form-group">
-                                <label class="control-label col-xs-2">Tên tài khoản</label>
-                                <div class="col-xs-10">
-                                    <input type="text" class="form-control" placeholder="Tên tài khoản">
-                                </div>
+                                <label class="control-lable col-xs-2">Họ & tên</label>
+                                <input type="text" class="col-xs-10" class="form-control" value="Nguyễn Thị Nhàn">
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-xs-2">Email</label>
-                                <div class="col-xs-10">
-                                    <input type="email" class="form-control" placeholder="Email">
-                                </div>
+                                <label class="control-lable col-xs-2">Ngày sinh</label>
+                                <input type="datetime" class="col-xs-10" class="form-control" value="18/05/1997">
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-xs-2">Số điện thoại</label>
-                                <div class="col-xs-10">
-                                    <input type="text" class="form-control" placeholder="Số điện thoại">
-                                </div>
+                                <label class="control-lable col-xs-2">Giới tính</label>
+                                <input type="text" class="col-xs-10" class="form-control" value="nữ">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-lable col-xs-2" >Quê</label>
+                                <input type="text" class="col-xs-10" class="form-control" value="Hưng Yên">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-lable col-xs-2" >Số điện thoại</label>
+                                <input type="text" class="col-xs-10" class="form-control" value="01633461337">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-lable col-xs-2" >Email</label>
+                                <input type="email" class="col-xs-10" class="form-control"  value="nhannt97hy@gmail.com">
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-offset-2 col-xs-10">
@@ -93,26 +89,56 @@
                             </div>
                         </form>
                     </div>
-                    <div class="tab-pane" id="security">
-                        <h2 class="text-center">Bảo mật tài khoản</h2>
+                    <div class="tab-pane" id="his">
+                        <h3 class="text-center">Lịch sử các bài kiểm tra</h3>
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <p>Ngày 1/2/2017</p>
+                            </div>
+                            <div class="col-xs-10">
+                                <p><em>Bài kiểm tra 15' Dao động điều hòa</em></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <p>Ngày 2/2/2017</p>
+                            </div>
+                            <div class="col-xs-10">
+                                <p><em>Bài kiểm tra 45' Toán</em></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <p>Ngày 3/2/2017</p>
+                            </div>
+                            <div class="col-xs-10">
+                                <p><em>Bài kiểm tra 15' Tiếng Việt</em></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <p>Ngày 4/2/2017</p>
+                            </div>
+                            <div class="col-xs-10">
+                                <p><em>Bài kiểm tra 15' Hóa</em></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane" id="secu">
+                        <h3 class="text-center">Thay đổi mật khẩu</h3>
                         <form class="form-horizontal">
                             <div class="form-group">
-                                <label class="control-label col-xs-2">Mật khẩu cũ</label>
-                                <div class="col-xs-10">
-                                    <input type="password" class="form-control">
-                                </div>
+                                <label class="control-lable col-xs-2">Mật khẩu cũ</label>
+                                <input type="password" class="col-xs-10" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-xs-2">Mật khẩu mới</label>
-                                <div class="col-xs-10">
-                                    <input type="password" class="form-control">
-                                </div>
+                                <label class="control-lable col-xs-2">Mật khẩu mới</label>
+                                <input type="password" class="col-xs-10" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-xs-2">Xác nhận mật khẩu mới</label>
-                                <div class="col-xs-10">
-                                    <input type="password" class="form-control">
-                                </div>
+                                <label class="control-lable col-xs-2">Xác nhận mật khẩu mới</label>
+                                <input type="password" class="col-xs-10" class="form-control">
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-offset-2 col-xs-10">
