@@ -8,3 +8,4 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/css3.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/favicon_uet.ico">
