@@ -1,66 +1,20 @@
 <!DOCTYPE html>
 <html lang="vi">
    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Website thi trực tuyến cho học sinh </title>
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="css/style.css">
+      <?php include_once("headtag.php"); ?>
+       <title>Website thi trực tuyến cho học sinh </title>
    </head>
    <body>
-      <div id="header">
-         <div class="container">
-            <div class="row">
-               <h2 class="text-center title-web">Hệ thống thi trực tuyến</h2>
-               <nav class="navbar navbar-inverse main-menu alert-info">
-                  <form class="navbar-form navbar-left search-form">
-                     <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Tìm kiếm tại đây...">
-                     </div>
-                  </form>
-                  <div class="navbar-header">
-                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                     <span class="sr-only">Toggle navigation</span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     </button>
-                  </div>
-                  <div class="navbar-collapse collapse" id="menu">
-                     <ul class="nav navbar-nav navbar">
-                        <li><a href=""><span class="glyphicon glyphicon-home"></span> Trang chủ</a></li>
-                        <li><a href=""><span class="glyphicon glyphicon-user"></span> Tài khoản</a></li>
-                        <li><a href=""><span class="glyphicon glyphicon-envelope"></span> Liên hệ</a></li>
-                        <li class="dropdown">
-                           <a data-toggle="dropdown" href="" class="pages">Pages<span class="caret"></span></a>
-                           <ul class="dropdown-menu">
-                              <li><a href="/2.html">Trang bắt đầu thi</a></li>
-                              <li><a href="/1.html">Trang thi</a></li>
-                              <li><a href="/4.html">Trang đăng ký</a></li>
-                              <li><a href="/3.html">Trang profile</a></li>
-                              <li><a href="/5.html">Trang chủ</a></li>
-                           </ul>
-                        </li>
-                     </ul>
-                     <form class="navbar-form navbar-right btn-login-logout">
-                        <button class="btn btn-warning">Đăng nhập</button>
-                        <button class="btn btn-success">Đăng ký</button>
-                     </form>
-                  </div>
-               </nav>
-            </div>
-            <div class="row">
+      <?php include_once("header.php"); ?>
+       <div class="container">
+       <div class="row">
                <ul class="breadcrumb">
                   <li><a href="#"><span class="glyphicon glyphicon-home"></span> Trang chủ</a></li>
                   <li><a href="#">Thi online</a></li>
                   <li><a href="#">Bài 1 : Sự đồng biến và nghịch biến của hàm số</a></li>
                </ul>
             </div>
-         </div>
-      </div>
+       </div>
       <div id="section">
       <div class="container">
          <div class="row">
@@ -122,7 +76,7 @@
                                     <div class="col-sm-8 text-center">
                                        Hàm số  <img alt="" src="img/hamso/2.gif"/>đồng biến trên R thì m thuộc khoảng nào sau đây?
                                     </div>
-                                    <br></br>
+                                    <br /><br />
                                  </div>
                                  <div class="col-sm-3">
                                     Chọn phương án <strong>Đúng.</strong>
@@ -164,7 +118,7 @@
                                     <div class="col-sm-8 text-center">
                                        Hàm số  <img alt="" src="img/hamso/3--.gif"/> đồng biến trên đoạn [4;9] thì m thuộc khoảng nào sau đây
                                     </div>
-                                    <br></br>
+                                    <br /><br />
                                  </div>
                                  <div class="col-sm-3">
                                     Chọn phương án <strong>Đúng.</strong>
@@ -206,7 +160,7 @@
                                     <div class="col-sm-8 text-center">
                                        Hàm số <img alt="" src="img/hamso/4.gif"/> đồng biến trên R thì m thuộc khoảng nào sau đây?
                                     </div>
-                                    <br></br>
+                                    <br /><br />
                                  </div>
                                  <div class="col-sm-3">
                                     Chọn phương án <strong>Đúng.</strong>
@@ -248,7 +202,7 @@
                                     <div class="col-sm-8 text-center">
                                        Hàm số<img alt="" src="img/hamso/5.gif"/> đồng biến trên R thì m thuộc khoảng nào sau đây?
                                     </div>
-                                    <br></br>
+                                    <br /><br />
                                  </div>
                                  <div class="col-sm-3">
                                     Chọn phương án <strong>Đúng.</strong>
@@ -290,7 +244,7 @@
                                     <div class="col-sm-8 text-center">
                                        Hàm số <img alt="" src="img/hamso/7.gif"/> đồng biến trên khoảng:
                                     </div>
-                                    <br></br>
+                                    <br /><br />
                                  </div>
                                  <div class="col-sm-3">
                                     Chọn phương án <strong>Đúng.</strong>
@@ -332,7 +286,7 @@
                                     <div class="col-sm-8 text-center">
                                        Hàm số<img alt="" src="img/hamso/6.gif"/>  đồng biến trên các khoảng nào trong các khoảng sau: <br />
                                     </div>
-                                    <br></br>
+                                    <br /><br />
                                  </div>
                                  <div class="col-sm-3">
                                     Chọn phương án <strong>Đúng.</strong>
@@ -374,8 +328,8 @@
                                     <div class="col-sm-8 text-center">
                                        Hàm số <img alt="" src="img/hamso/8.gif"/> đồng biến trên R khi :
                                     </div>
-                                    <br>
-                                    </br>
+                                    <br />
+                                    <br />
                                  </div>
                                  <div class="col-sm-3">
                                     Chọn phương án <strong>Đúng.</strong>
@@ -417,7 +371,7 @@
                                     <div class="col-sm-8 text-center">
                                        Cho hàm số: <img alt="" src="img/hamso/9.gif"/>
                                     </div>
-                                    <br></br>
+                                    <br /><br />
                                  </div>
                                  <div class="col-sm-3">
                                     Chọn phương án <strong>Đúng.</strong>
@@ -458,7 +412,7 @@
                                  <div class="row">
                                     Hàm số  <img alt="" src="img/hamso/2.gif"/>đồng biến trên R thì m thuộc khoảng nào sau đây?
                                  </div>
-                                 <br></br>
+                                 <br /><br />
                                  <div class="col-sm-3">
                                     Chọn phương án <strong>Đúng.</strong>
                                  </div>
@@ -505,49 +459,7 @@
             </div>
          </div>
       </div>
-      <div>
-      <div id="footer">
-      <div class="container">
-      <div class="row">
-      <footer class="nb-footer">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <div class="about">
-                     <img src="img/logo.jpg" class="img-responsive center-block" alt="">
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6">
-                  <div class="footer-info-single">
-                     <h2 class="title">Information</h2>
-                     <div class="col-md-3"><a href="#"><img src="img/facebook.png"></a></div>
-                     <div class="col-md-3"><a href="#"><img src="img/youtube.png"></a></div>
-                     <div class="col-md-3"><a href="#"><img src="img/g+.png"></a></div>
-                     <div class="col-md-3"><a href="#"><img src="img/Github.png"></a></div>
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6">
-                  <div class="footer-info-single">
-                     <h2 class="title">Location & Contacts</h2>
-                     <ul class="list-unstyled">
-                        <li><i class="glyphicon glyphicon-map-marker"></i>  Đại học Công nghệ - 144 Xuân Thủy, Cầu Giấy, Hà Nội</li>
-                        <li><i class="glyphicon glyphicon-phone-alt"></i>01678238831</li>
-                        <li><i class="glyphicon glyphicon-envelope"></i>nhatlinhrma@gmail.com</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6">
-                  <div class="footer-info-single">
-                     <h2 class="title">Newsletter</h2>
-                     <form class="form-group">
-                        <p>Nhập email của bạn tại đây, chúng tôi sẽ gửi mail cho bạn khi có thông tin hữu ích!</p>
-                        <input type="email" class="form-control" placeholder="Nhập email của bạn...">
-                        <button class="btn btn-info btn-block">Gửi</button>
-                     </form>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
+       </div>
+      <?php include_once("footer.php"); ?>
    </body>
 </html>

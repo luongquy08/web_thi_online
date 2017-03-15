@@ -14,13 +14,11 @@
 .search-form{
     border: none !important;
 }
-.navbar-inverse .navbar-nav > li > a {
+#menu .navbar-nav > li > a {
     color: #2a70b8;
-}
-.navbar-inverse .navbar-nav > li > a {
     text-shadow: none !important;
 }
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+#menu .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #222222;
     background-color: transparent;
 }
