@@ -13,7 +13,7 @@
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/style_form-register.css">
         <link rel="stylesheet" href="css/style_register_page.css">
-        <link rel="shortcut icon" href="img/favicon_uet.ico">
+
     </head>
 
     <body>
@@ -84,6 +84,7 @@
 		                        	</a>
 	                        	</div>
 	                        </div>
+	                        
                         </div>
                         
                         <div class="col-sm-1 middle-border"></div>
@@ -192,16 +193,7 @@
                                                 <option>2000</option>
                                                 <option>2001</option>
                                             </select>
-				                        </div>
-                                        Gender<br />
-                                        <div class="">
-                                            <div class="col-xs-3" >Male</div>
-                                            <div class="col-xs-9"><input type="radio" name="gender" value="male"></div>
-				                        	<br />
-                                            <div class="col-xs-3" >Female</div>
-                                            <div class="col-xs-9"><input type="radio" name="gender" value="fermale"></div>
-				                        </div>
-                                        
+				                        </div><br />
 				                        <button type="submit" class="btn">Sign me up!</button>
 				                    </form>
 			                    </div>
